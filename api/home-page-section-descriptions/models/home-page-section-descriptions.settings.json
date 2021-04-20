@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_page_section_descriptions",
+  "info": {
+    "name": "Home page section descriptions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "about": {
+      "type": "text"
+    },
+    "services": {
+      "type": "text"
+    },
+    "howWeWork": {
+      "type": "text"
+    },
+    "contacts": {
+      "type": "text"
+    }
+  }
+}

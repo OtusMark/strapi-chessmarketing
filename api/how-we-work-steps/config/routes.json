@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/how-we-work-steps",
+      "handler": "how-we-work-steps.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/how-we-work-steps/count",
+      "handler": "how-we-work-steps.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/how-we-work-steps/:id",
+      "handler": "how-we-work-steps.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/how-we-work-steps",
+      "handler": "how-we-work-steps.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/how-we-work-steps/:id",
+      "handler": "how-we-work-steps.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/how-we-work-steps/:id",
+      "handler": "how-we-work-steps.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

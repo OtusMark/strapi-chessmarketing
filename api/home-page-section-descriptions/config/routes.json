@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-page-section-descriptions",
+      "handler": "home-page-section-descriptions.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-page-section-descriptions",
+      "handler": "home-page-section-descriptions.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-page-section-descriptions",
+      "handler": "home-page-section-descriptions.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

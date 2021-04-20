@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cases",
+  "info": {
+    "name": "Cases",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "companyLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "improvement_1": {
+      "type": "string"
+    },
+    "improvement_1_description": {
+      "type": "text"
+    },
+    "improvement_2": {
+      "type": "string"
+    },
+    "improvement_2_description": {
+      "type": "text"
+    },
+    "companyName": {
+      "type": "string"
+    }
+  }
+}
